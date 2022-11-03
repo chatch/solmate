@@ -3,8 +3,8 @@ pragma solidity >=0.8.0;
 
 import "./LibERC721Storage.sol";
 
-/// @notice Modern, minimalist, and gas efficient ERC-721 implementation.
-/// @author Solmate (https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC721.sol)
+/// @notice A forked version of Solmate ERC721 that uses a storage struct for use in a Diamond or similar proxy pattern.
+/// @author Modified from Solmate (https://github.com/transmissions11/solmate/blob/main/src/tokens/ERC721.sol)
 abstract contract ERC721WithStorageStruct {
     /*//////////////////////////////////////////////////////////////
                                  EVENTS
